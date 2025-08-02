@@ -1,3 +1,5 @@
+// Demo EX-1: C to JavaScript Conversion - Variables
+// Original C Code:
 /*
 #include <stdio.h>
 
@@ -8,3 +10,4 @@ int main() {
 }
 */
 
+// JavaScript Implementation:

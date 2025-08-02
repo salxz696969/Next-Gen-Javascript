@@ -1,3 +1,5 @@
+// Demo EX-3: C to JavaScript Conversion - Arrays and Loops
+// Original C Code:
 /*
 #include <stdio.h>
 
@@ -9,3 +11,5 @@ int main() {
     return 0;
 }
 */
+
+// JavaScript Implementation:

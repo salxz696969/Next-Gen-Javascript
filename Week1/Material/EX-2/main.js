@@ -1,3 +1,5 @@
+// Demo EX-2: C to JavaScript Conversion - If/Else Statements
+// Original C Code:
 /*
 #include <stdio.h>
 
@@ -13,5 +15,6 @@ int main() {
 
     return 0;
 }
-    
 */
+
+// JavaScript Implementation:
