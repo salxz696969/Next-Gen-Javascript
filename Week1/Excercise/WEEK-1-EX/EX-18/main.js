@@ -1,4 +1,4 @@
-// EXERCISE 18: Convert the following C code to JavaScript
+// EXERCISE 18: Convert C code to JavaScript - count even numbers in range
 // Use appropriate JavaScript features to match the logic and output
 
 /*

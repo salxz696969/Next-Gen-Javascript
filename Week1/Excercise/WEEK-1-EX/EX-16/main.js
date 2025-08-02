@@ -1,4 +1,4 @@
-// EXERCISE 16: Convert the following C code to JavaScript
+// EXERCISE 16: Convert C code to JavaScript - if/else comparison
 // Use appropriate JavaScript features to match the logic and output
 
 /*

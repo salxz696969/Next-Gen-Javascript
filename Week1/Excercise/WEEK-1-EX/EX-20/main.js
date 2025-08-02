@@ -1,4 +1,4 @@
-// EXERCISE 20: Convert the following C code to JavaScript
+// EXERCISE 20: Convert C code to JavaScript - struct array iteration
 // Use appropriate JavaScript features to match the logic and output
 
 /*

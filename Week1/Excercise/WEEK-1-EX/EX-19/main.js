@@ -1,4 +1,4 @@
-// EXERCISE 19: Convert the following C code to JavaScript
+// EXERCISE 19: Convert C code to JavaScript - switch statement for grades
 // Use appropriate JavaScript features to match the logic and output
 
 /*

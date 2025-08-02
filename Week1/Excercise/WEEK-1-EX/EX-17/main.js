@@ -1,4 +1,4 @@
-// EXERCISE 17: Convert the following C code to JavaScript
+// EXERCISE 17: Convert C code to JavaScript - array iteration with condition
 // Use appropriate JavaScript features to match the logic and output
 
 /*
