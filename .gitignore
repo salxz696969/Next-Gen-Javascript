@@ -28,3 +28,5 @@ Desktop.ini
 
 # Environment files (if used in future)
 .env
+
+project/
