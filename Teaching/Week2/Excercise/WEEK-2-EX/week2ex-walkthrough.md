@@ -28,7 +28,7 @@ Write a function with no parameter and no return that prints "Hello!" to the con
 
 ### 🔹 `ex1`
 
-Create a variable for a name, and use a template literal to say "Hello" using that name.
+Create a variable for a name, and use a template literal to say Hello to that name.
 
 ### 🔹 `ex2`
 
@@ -80,19 +80,28 @@ Create two number variables and use a template literal to show the sum.
 
 ---
 
+## 📁 `async-await-exercise/`
+
+### 🔹 `exercise.js`
+
+1. Call the fetchBankAccountBalanceSimulated function using await.
+2. Store the result in a variable.
+3. Print: "Your bank account balance is ${balance} USD" to the console.
+
+---
+
 ## 📁 `big-exercise/`
 
 ### 🔹 `export.js`
 
-1. Make an object with these properties: name, age, gender, and grade.
-2. Write an arrow function that:
-   - Takes the object as a parameter.
-   - Uses destructuring to access the properties.
-   - Uses a template literal to return a formatted string.
-3. Export both the object and the function.
+1. Use any type of export to export the provided async function to `import.js`.
+2. The function simulates fetching student info and returns an object with extra properties after a delay.
+3. You do not need to change the code, just export the function.
 
 ### 🔹 `import.js`
 
-1. Import the object and function from `export.js`.
-2. Call the function using the imported object and log the result.
-3. Create your own object with the same properties and test the function again.
+1. Import the async function from `export.js`.
+2. Call the function with a student info object and log the result.
+3. Try with different student info objects and observe the output.
+
+---
