@@ -9,11 +9,11 @@ Follow these exercises to practice **array methods** and **rest/spread operators
 
 ### 🔹 `ex1`
 
-Write a function using the **rest operator** to collect all arguments passed in and console log them.
+Make a function using the **rest operator** to get all the arguments passed in and console log them.
 
 ### 🔹 `ex2`
 
-Write a function to get the **first and second arguments** separately, and use the rest operator to collect the remaining arguments. Console log all of them.
+Make a function to get the **first and second arguments** separately, and use the rest operator to get the remaining arguments. Console log all of them.
 
 ### 🔹 `ex3`
 
@@ -29,7 +29,7 @@ Use the rest operator to get `name`, `age`, `married`, `music`, and collect the 
 
 ### 🔹 `ex1`
 
-Use the **spread operator** to copy an array and an object. Console log the copies.
+Use the **spread operator** to copy an array and an object of a given array and object. Console log the copies.
 
 ### 🔹 `ex2`
 
@@ -41,15 +41,15 @@ Use the spread operator to **add an element** to the **start** and **end** of an
 
 ### 🔹 `ex4`
 
-Use the spread operator to **add a key-value pair** to the **start** and **end** of an object.
+Use the spread operator to **add a key** to the **start** and **end** of an object.
 
 ### 🔹 `ex5`
 
-Merge two arrays using the spread operator, and also **add an element at the start and one at the end**. Console log the final array.
+Use the spread operator to merge two arrays and also **add an element to the start and one at the end**.
 
 ### 🔹 `ex6`
 
-Merge two objects using the spread operator, and also **add a key-value pair at the start and one at the end**. Console log the final object.
+Use the spread operator to merge two objects and also **add a key to the start and one at the end**.
 
 ---
 
@@ -73,7 +73,7 @@ Remove the **first element** of the array using `shift`.
 
 ### 🔹 `ex5`
 
-Combine multiple operations (`push`, `pop`, `shift`, `unshift`) and **console log the array** after each operation.
+Combine multiple operations (`push`, `unshift`, `pop`, `shift`) and **console log the results** after each operation.
 
 ---
 
@@ -81,7 +81,7 @@ Combine multiple operations (`push`, `pop`, `shift`, `unshift`) and **console lo
 
 ### 🔹 `ex1`
 
-Get the **first 3 elements** of an array using `slice`.
+Get the **first 3 elements** of an array.
 
 ### 🔹 `ex2`
 
@@ -89,11 +89,39 @@ Get the **last 2 elements** of an array.
 
 ### 🔹 `ex3`
 
-Get a **middle portion** of an array, excluding `"red"` and `"purple"`.
+Get a **middle portion** of an array (excluding `"red"` and `"purple"`).
 
 ### 🔹 `ex4`
 
 Get the **third element to the third last element** of an array.
+
+---
+
+## 📁 `array-methods/includes-indexOf-find.js`
+
+### 🔹 `ex1`
+
+Use `includes` to check if `"Charlie"` exists in an array.
+
+### 🔹 `ex2`
+
+Use `includes` to check if `"Ivy"` exists in an array.
+
+### 🔹 `ex3`
+
+Use `indexOf` to find the index of `"Eve"`.
+
+### 🔹 `ex4`
+
+Use `indexOf` to find the index of `"Zoe"` (should return `-1` if not found).
+
+### 🔹 `ex5`
+
+Use `find` to get the **first player whose name starts with `"D"`**.
+
+### 🔹 `ex6`
+
+Use `find` to get the **first player whose name length is 5**.
 
 ---
 
@@ -105,11 +133,11 @@ Use `forEach` to console log the **area of a circle** for each radius in an arra
 
 ### 🔹 `ex2`
 
-Use `forEach` to print a **welcome message** for each person in an array.
+Use `forEach` to console log a **welcome message** for each person in an array.
 
 ### 🔹 `ex3`
 
-Use `forEach` to display the **price of each item after tax**.
+Use `forEach` to display the **price of an item after tax**.
 
 ---
 
@@ -117,23 +145,23 @@ Use `forEach` to display the **price of each item after tax**.
 
 ### 🔹 `ex1`
 
-Create a new array containing only the even numbers from a given array.
+Use `filter` to create a new array with only the **even numbers**.
 
 ### 🔹 `ex2`
 
-Filter a list of people to get only those who are **30 or older**.
+Use `filter` to create a new array with only the **people who are 30 or older**.
 
 ### 🔹 `ex3`
 
-Filter products to get only those whose **price after tax is greater than 200**.
+Use `filter` to create a new array with **products that have a price greater than 200 after tax**.
 
 ### 🔹 `ex4`
 
-Filter teams that have **won a champion league**.
+Use `filter` to create a new array with **books that have won an award**.
 
 ### 🔹 `ex5`
 
-Filter girl groups to get only those with **less than 6 members**.
+Use `filter` to create a new array with **sports teams that have less than 6 players**.
 
 ---
 
@@ -141,15 +169,15 @@ Filter girl groups to get only those with **less than 6 members**.
 
 ### 🔹 `ex1`
 
-Create a new array containing the **square of each number** in a given array.
+Use `map` to create a new array that contains the **square of each number** in the original array.
 
 ### 🔹 `ex2`
 
-Use `map` and the spread operator to **add a new key `"hobby"`** with the value `"Coding"` to each object in an array.
+Use `map` and the **spread operator** to create a new array of objects with a new key `"hobby"` set to `"Coding"`.
 
 ### 🔹 `ex3`
 
-Use `map` to create a new array of **full names** from an array of objects with `firstName` and `lastName`.
+Use `map` to create a new array that returns the **full name** of each object (combine `firstName` and `lastName`).
 
 ---
 

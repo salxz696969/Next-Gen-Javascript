@@ -8,26 +8,27 @@ const letters = ["a", "b", "c", "d", "e"];
 const colors = ["red", "green", "blue", "yellow", "purple"];
 
 // Ex4: Get the third element to the third last element
-const kpopIdolNames = [
-	"Jungkook",
-	"V",
-	"Jimin",
-	"Suga",
-	"RM",
-	"Chaewon",
-	"Sakura",
-	"Yunjin",
-	"Hanni",
-	"Minji",
-	"Haerin",
-	"Danielle",
-	"Kazuha",
-	"IU",
-    "Karina",
-    "Ningning",
-    "Winter",
-    "GDragon",
-    "Giselle",
-    "Eunchae",
-    "Taeyang"
+const names = [
+	"Alice",
+	"Bob",
+	"Charlie",
+	"David",
+	"Emma",
+	"Frank",
+	"Grace",
+	"Hannah",
+	"Isaac",
+	"Jack",
+	"Katie",
+	"Liam",
+	"Mia",
+	"Noah",
+	"Olivia",
+	"Paul",
+	"Quinn",
+	"Rachel",
+	"Sam",
+	"Tina",
+	"Uma"
 ];
+

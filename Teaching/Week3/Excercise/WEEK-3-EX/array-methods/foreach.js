@@ -2,7 +2,7 @@
 const radius = [1, 2, 3, 4, 5];
 
 // Ex2: Use foreach to console log a welcome message to these people
-const people=["Hanni", "Chaewon", "IU", "Gravenberch", "Szoboszlai", "Mac Allister"]
+const people = ["Alice", "Bob", "Charlie", "David", "Emma", "Frank"];
 
 // Ex3: Use foreach to display te price of an item after tax
 const products=[

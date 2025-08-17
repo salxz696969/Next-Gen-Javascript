@@ -10,9 +10,9 @@ const people = [
 
 // Ex3: Use map to create a new array to return a full name of an array of objects
 const peopleWithNames = [
-	{ firstName: "Chaewon", lastName: "Kim" },
-	{ firstName: "Eunchae", lastName: "Hong" },
-	{ firstName: "Jungkook", lastName: "Jeon" },
-	{ firstName: "Hanni", lastName: "Pham" },
-	{ firstName: "Jiyong", lastName: "Kwon" },
+	{ firstName: "John", lastName: "Doe" },
+	{ firstName: "Jane", lastName: "Smith" },
+	{ firstName: "Michael", lastName: "Johnson" },
+	{ firstName: "Emily", lastName: "Davis" },
+	{ firstName: "David", lastName: "Brown" },
 ];

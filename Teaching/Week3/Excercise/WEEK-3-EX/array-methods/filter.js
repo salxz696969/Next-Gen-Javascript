@@ -17,24 +17,23 @@ const products = [
 	{ name: "Keyboard", price: 50, tax: 0.12 },
 ];
 
-// Ex4: Use filter to create a new array with teams that has won a champion league
-const teams = [
-	{ name: "Liverpool", numberOfChampionLeague: 6 },
-	{ name: "Real Madrid", numberOfChampionLeague: 14 },
-	{ name: "Barcelona", numberOfChampionLeague: 5 },
-	{ name: "Manchester City", numberOfChampionLeague: 1 },
-	{ name: "Arsenal", numberOfChampionLeague: 0 },
-	{ name: "Tottenham", numberOfChampionLeague: 0 },
+// Ex4: Use filter to create a new array with books that have won an award
+const books = [
+	{ title: "Charlotte's Web", awards: 1 },
+	{ title: "The Hobbit", awards: 0 },
+	{ title: "Harry Potter and the Sorcerer's Stone", awards: 3 },
+	{ title: "Green Eggs and Ham", awards: 0 },
+	{ title: "The Cat in the Hat", awards: 2 },
+	{ title: "Matilda", awards: 1 },
 ];
 
 
-// Ex5: Use filter to create a new array to return a girl groups with less than 6 members
-const girlGroups = [
-	{ name: "TWICE", members: 9 },
-	{ name: "Red Velvet", members: 5 },
-	{ name: "LE SSERAFIM", members: 5 },
-	{ name: "EXO", members: 9 },
-	{ name: "BTS", members: 7 },
-	{ name: "Aespa", members: 4 },
-	{ name: "IVE", members: 6 }
+// Ex5: Use filter to create a new array to return sports teams with less than 6 players
+const sportsTeams = [
+	{ name: "Basketball Team", players: 5 },
+	{ name: "Volleyball Team", players: 6 },
+	{ name: "Futsal Team", players: 5 },
+	{ name: "Table Tennis Doubles", players: 2 },
+	{ name: "Relay Team", players: 4 },
+	{ name: "Football Team", players: 11 }
 ];
