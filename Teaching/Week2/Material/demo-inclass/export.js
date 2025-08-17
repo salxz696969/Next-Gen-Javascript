@@ -5,3 +5,4 @@ const fetchDataSimulation = () => {
         }, 1000);
     });
 }
+///
