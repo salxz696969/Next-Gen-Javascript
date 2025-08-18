@@ -7,7 +7,7 @@ const letters = ["a", "b", "c", "d", "e"];
 // Ex3: Get a middle portion of an array (no "red" and "purple")
 const colors = ["red", "green", "blue", "yellow", "purple"];
 
-// Ex4: Get the third element to the third last element
+// Ex4: Get the third element to the third last elements
 const names = [
 	"Alice",
 	"Bob",
@@ -31,4 +31,3 @@ const names = [
 	"Tina",
 	"Uma"
 ];
-
