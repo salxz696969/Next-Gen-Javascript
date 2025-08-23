@@ -16,3 +16,9 @@ int main() {
 */
 
 // Your JavaScript code here:
+let array = [10, 55, 63, 20, 90];
+for(let a of array) {
+    if(a >  50) {
+        console.log(a);
+    }
+}

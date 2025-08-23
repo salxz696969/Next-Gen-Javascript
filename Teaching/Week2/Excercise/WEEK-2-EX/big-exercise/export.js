@@ -1,7 +1,7 @@
 // Exercise: Export
 // 1. Use any type of export to export this function to import.js
 //! No need to touch the code here
-const displayStudentInfoSimulation = async (studentInfo) => {
+export const displayStudentInfoSimulation = async (studentInfo) => {
 	await new Promise((resolve) => setTimeout(resolve, 2000));
     return {
         name: studentInfo.name,
@@ -13,3 +13,4 @@ const displayStudentInfoSimulation = async (studentInfo) => {
         email: `${studentInfo.name.toLowerCase().replace(/\s/g, '')}@school.edu`
     };
 };
+

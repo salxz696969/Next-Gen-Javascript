@@ -26,3 +26,14 @@ int main() {
 */
 
 // Your JavaScript code here:
+let students = [
+    { name: "Alice", age: 20 },
+    { name: "Bob", age: 21 },
+    { name: "Charlie", age: 22 }
+];
+for(let s of students) {
+    for(let key in s) {
+        console.log(key + ":", s[key]);
+    } 
+    console.log(" ");
+}

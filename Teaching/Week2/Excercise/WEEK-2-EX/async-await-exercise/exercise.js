@@ -18,6 +18,14 @@ const fetchBankAccountBalanceSimulated = () => {
 
 const run = async () => {
 	// code here:
+	console.log("Fetching..");
+	const result = await fetchBankAccountBalanceSimulated();
+	console.log(`Your bank account balance is ${result} USD`);
+
+	console.log("Fetching..");
+	const result2 = await fetchBankAccountBalanceSimulated();
+	console.log(`Your bank account balance is ${result2} USD`);
+
 };
 
 run();
