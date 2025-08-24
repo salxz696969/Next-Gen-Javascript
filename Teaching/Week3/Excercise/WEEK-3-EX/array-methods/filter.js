@@ -37,3 +37,6 @@ const sportsTeams = [
 	{ name: "Relay Team", players: 4 },
 	{ name: "Football Team", players: 11 }
 ];
+
+
+//! now that i already pushed once using upstream from now on you just use "git push"
