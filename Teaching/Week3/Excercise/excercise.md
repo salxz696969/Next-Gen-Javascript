@@ -97,34 +97,6 @@ Get the **third element to the third last element** of an array.
 
 ---
 
-## 📁 `array-methods/includes-indexOf-find.js`
-
-### 🔹 `ex1`
-
-Use `includes` to check if `"Charlie"` exists in an array.
-
-### 🔹 `ex2`
-
-Use `includes` to check if `"Ivy"` exists in an array.
-
-### 🔹 `ex3`
-
-Use `indexOf` to find the index of `"Eve"`.
-
-### 🔹 `ex4`
-
-Use `indexOf` to find the index of `"Zoe"` (should return `-1` if not found).
-
-### 🔹 `ex5`
-
-Use `find` to get the **first player whose name starts with `"D"`**.
-
-### 🔹 `ex6`
-
-Use `find` to get the **first player whose name length is 5**.
-
----
-
 ## 📁 `array-methods/foreach.js`
 
 ### 🔹 `ex1`
@@ -178,6 +150,34 @@ Use `map` and the **spread operator** to create a new array of objects with a ne
 ### 🔹 `ex3`
 
 Use `map` to create a new array that returns the **full name** of each object (combine `firstName` and `lastName`).
+
+---
+
+## 📁 `array-methods/includes-indexOf-find.js`
+
+### 🔹 `ex1`
+
+Use `includes` to check if `"Charlie"` exists in an array.
+
+### 🔹 `ex2`
+
+Use `includes` to check if `"Ivy"` exists in an array.
+
+### 🔹 `ex3`
+
+Use `indexOf` to find the index of `"Eve"`.
+
+### 🔹 `ex4`
+
+Use `indexOf` to find the index of `"Zoe"` (should return `-1` if not found).
+
+### 🔹 `ex5`
+
+Use `find` to get the **first player whose name starts with `"D"`**.
+
+### 🔹 `ex6`
+
+Use `find` to get the **first player whose name length is 5**.
 
 ---
 

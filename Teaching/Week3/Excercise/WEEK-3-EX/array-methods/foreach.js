@@ -1,6 +1,7 @@
 // Ex1: Use foreach to console log a an area value of a circle
 const radius = [1, 2, 3, 4, 5];
 
+
 // Ex2: Use foreach to console log a welcome message to these people
 const people = ["Alice", "Bob", "Charlie", "David", "Emma", "Frank"];
 
